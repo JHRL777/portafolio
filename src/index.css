@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  background: #0D222C;
+  font-family: 'K2D', sans-serif;
+}
