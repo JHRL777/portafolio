@@ -6,7 +6,7 @@ function ProyectosComponentes() {
     <>
       
       {proyectos.map((proyecto) => (
-    <section key={proyecto.id} className="bg-[#0B3F55] relative bg-opacity-30 p-2 flex flex-col justify-between  gap-2">
+    <section key={proyecto.id} className="bg-[#0B3F55] relative bg-opacity-30 p-2 flex flex-col justify-between  gap-2 transition-transform transform hover:-translate-y-1 lg:hover:-translate-y-8">
        <a className="absolute   top-0 right-0 rounded-bl-xl" href={proyecto.git} target="_blank" rel="noopener noreferrer"><FaGithub className="text-white bg-transparent m-4 text-xl  " /></a> 
         <div className="bg-transparent flex flex-col gap-2">
         <h3 className="bg-transparent text-[#5BD1D7] font-semibold text-2xl">{proyecto.nombre}</h3>

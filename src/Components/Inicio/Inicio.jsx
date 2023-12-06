@@ -23,7 +23,7 @@ function Inicio() {
         <h2 className="bg-transparent text-[#5BD1D7] text-2xl font-semibold text-center ">HABILIDADES</h2>
         {
           habilidades.map(habilidad => (
-            <div className="flex border items-center gap-2 md:w-[300px] bg-[#5BD1D7] bg-opacity-10 " key={habilidad.id}>
+            <div className="flex border items-center gap-2 md:w-[300px] bg-[#5BD1D7] bg-opacity-10 transition-all cursor-default hover:bg-opacity-0" key={habilidad.id}>
               <div className="w-[70px] h-[70px] overflow-hidden">
                 <img className="object-cover w-full h-full" src={habilidad.img} alt={habilidad.nombre} />
               </div>
