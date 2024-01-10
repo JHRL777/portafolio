@@ -5,6 +5,7 @@ import Nav from './Components/nav/Nav'
 import InicioContenedor from './Components/Inicio/InicioContenedor'
 import Proyectos from './Components/proyectos/Proyectos'
 import Contacto from './Components/contacto/Contacto'
+import Footer from './Components/footer/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
      <InicioContenedor/>
      <Proyectos />
      <Contacto/>
+     <Footer/>
     </>
   )
 }

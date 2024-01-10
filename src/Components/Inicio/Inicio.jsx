@@ -3,7 +3,8 @@ import { perfil } from "./Habilidades"
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa"
 import perfilFoto from '../../assets/img/perfilFoto.jpg'
-
+import { LuFileSpreadsheet } from "react-icons/lu";
+import hojavida from '../../assets/Documents/hojavida.pdf';
 
 function Inicio() {
   return (
@@ -11,8 +12,9 @@ function Inicio() {
       <div className="lg:col-span-2 flex flex-col gap-2 my-2 justify-center items-center ">
         <img className="w-[300px]" src={perfilFoto} alt="perfil" />
         <div className="flex">
-          <a  target="_blank" href="https://github.com/JHRL777?tab=repositories"><FaGithub className="text-white bg-transparent m-4 text-xl  " /></a>
-          <a  target="_blank" href="https://www.linkedin.com/in/jhonatan-reyes-316a80271"><FaLinkedin className="text-white bg-transparent m-4 text-xl  "  /></a>
+          <a  target="_blank" href="https://github.com/JHRL777?tab=repositories"><FaGithub className="text-white bg-transparent m-4 text-xl hover:text-[#5BD1D7]  " /></a>
+          <a  target="_blank" href="https://www.linkedin.com/in/jhonatan-reyes-316a80271"><FaLinkedin className="text-white bg-transparent m-4 text-xl hover:text-[#5BD1D7]  "  /></a>
+          <a  target="_blank" href={hojavida}><LuFileSpreadsheet  className="text-white bg-transparent m-4 text-xl hover:text-[#5BD1D7]  "  /></a>
         </div>
         <h1 className="text-white text-xl font-semibold">Ingeniero de Sistemas</h1>
         <h3 className="text-white">Hola, Mi nombre es</h3>
